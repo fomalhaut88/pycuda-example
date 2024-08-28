@@ -13,18 +13,11 @@ if __name__ == "__main__":
 
     // Euclidean algorithm to calculate GCD
     __device__ uint calc_gcd(uint a, uint b) {
-        if (a < b) {
-            uint t = a;
-            a = b;
-            b = t;
-        }
-
         while (b > 0) {
             uint t = b;
             b = a % b;
             a = t;
         }
-
         return a;
     }
 
