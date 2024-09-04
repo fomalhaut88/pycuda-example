@@ -1,5 +1,8 @@
 *~
 *.pyc
+*.exp
+*.lib
+*.exe
 __pycache__
 
 /.venv/
