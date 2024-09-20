@@ -32,5 +32,5 @@ For running C example only, first 3 points above will be enough.
 
 ### C example in **main.cu**
 
-1. Compile the code: `nvcc main.cu -o main.exe`
-2. Run the exe-file: `.\main.exe`
+1. Compile the code: `nvcc -arch=native main.cu -o main` (or `nvcc main.cu -o main.exe` for Windows)
+2. Run the exe-file: `./main` (or `.\main.exe` for Windows)
